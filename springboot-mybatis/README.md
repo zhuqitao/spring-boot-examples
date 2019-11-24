@@ -232,7 +232,7 @@ mybatis.mapper-locations=classpath:mybatis/mapper/*.xml是为了让程序去扫�
 
 ### 结构分析
 该部分针对从事前端不熟悉java的同学，可能对这个结构不是很熟悉，搞不清Mapper层、service层、controller层都是干嘛的，用一张图梳理他们之间的关系
-![image]()
+![image](https://github.com/zhuqitao/spring-boot-examples/blob/master/springboot-mybatis/springboot-mybatis-xml/src/main/resources/static/images/1.png)
 
 - Controller层
   在springMVC中Controller层负责具体的业务模块流程的控制，主要是处理客户端发送到服务端的请求，调用service层定义的方法。
