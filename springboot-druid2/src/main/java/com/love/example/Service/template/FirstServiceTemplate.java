@@ -5,8 +5,10 @@ import com.love.example.mapper.first.FirstMapper;
 import com.love.example.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 @Service("FirstService")
+@Transactional("transactionManager")
 public class FirstServiceTemplate implements FirstService {
     @Autowired
     private FirstMapper firstMapper;
