@@ -230,13 +230,4 @@ mybatis.mapper-locations=classpath:mybatis/mapper/*.xml是为了让程序去扫�
 
 到此配置完成，配置本地数据库，启动项目，和上面看到一样的效果说明Mybatis的xml配置方式配置成功。
 
-### 结构分析
-该部分针对从事前端不熟悉java的同学，可能对这个结构不是很熟悉，搞不清Mapper层、service层、controller层都是干嘛的，用一张图梳理他们之间的关系
-![image](https://github.com/zhuqitao/spring-boot-examples/blob/master/springboot-mybatis/springboot-mybatis-xml/src/main/resources/static/images/1.png)
-
-- Controller层
-  在springMVC中Controller层负责具体的业务模块流程的控制，主要是处理客户端发送到服务端的请求，调用service层定义的方法。
-- Service层
-  Service层主要负责业务模块的逻辑应用设计。先设计接口，再设计接口的实现类。
-- Mapper层
-  也叫dao层，对数据库进行数据持久化操作，他的方法语句是直接针对数据库操作的，主要实现一些增删改查操作。
+##### 具体代码可查看[源码地址](https://github.com/zhuqitao/spring-boot-examples/tree/master/springboot-mybatis)，欢迎star

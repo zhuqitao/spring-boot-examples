@@ -551,8 +551,10 @@ public class UserController {
 ```
 
 #### 测试
-恭喜坚持到了最后一步，到此就完成了配置，启动项目，在浏览器访问[http://localhost:8083/addalluser?userName=test_name&password=123456](http://localhost:8083/addalluser?userName=test_name&password=123456),
+到此就完成了配置，启动项目，在浏览器访问[http://localhost:8083/addalluser?userName=test_name&password=123456](http://localhost:8083/addalluser?userName=test_name&password=123456),
 会抛出异常，查看数据库会发现test1库和test2库两个数据源都没有插入数据，如果在UserServiceTemplate中去除@Transactional("transactionManager")，
 刷新浏览器重新发出请求，同样会抛出异常，查看两个数据源first库成功插入了数据，second库没有插入数据。
 
 如果出现上述效果，说明配置成功了。
+
+##### 具体代码可查看[源码地址](https://github.com/zhuqitao/spring-boot-examples/tree/master/springboot-mybatis-druid-jta)，欢迎star

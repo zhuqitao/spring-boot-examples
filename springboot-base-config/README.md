@@ -122,3 +122,4 @@ spring.devtools.restart.additional-paths= src/main/java
 ##### [GsonFormat 快速的将JSON转换为实体类](https://github.com/zzz40500/GsonFormat)
 ##### [Maven Helper 解决Maven插件冲突](http://plugins.jetbrains.com/plugin/7179-maven-helper)
 
+#### 具体代码可查看[源码地址](https://github.com/zhuqitao/spring-boot-examples/tree/master/springboot-base-config)，欢迎star
