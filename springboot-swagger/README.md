@@ -75,7 +75,7 @@ public class SwaggerConfig {
 }
 ```
 启动服务，访问[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)，可以看到下图效果：
-![image](http://q21ledx2j.bkt.clouddn.com/1.png)
+![image](http://q21ledx2j.bkt.clouddn.com/example:spring-boot-swagger:1.png)
 
 ### 添加文档相关配置
 
@@ -149,7 +149,7 @@ public class User {
 
 重新启动项目，访问[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)可看到下图效果：
 
-![image](http://q21ledx2j.bkt.clouddn.com/2.png)
+![image](http://q21ledx2j.bkt.clouddn.com/example:spring-boot-swagger:2.png)
 可以看到我们添加的配置说明信息都已经显示。
 
 ### 接口过滤
@@ -219,7 +219,7 @@ public class SwaggerConfig {
 ```
 重新启动项目，访问[http://localhost:8080/swagger-ui.html](http://localhost:8080/swagger-ui.html)可看到下图效果：
 
-![image](http://q21ledx2j.bkt.clouddn.com/3.png)
+![image](http://q21ledx2j.bkt.clouddn.com/example:spring-boot-swagger:3.png)
 
 可以看到过滤掉了TestController所有接口，UserController类下的删除用户接口也过滤掉了
 
@@ -279,7 +279,7 @@ spring.profiles.active=dev
 spring.profiles.active=prod
 ```
 生产环境再次重启项目，浏览器访问[http://localhost:8082/swagger-ui.html](http://localhost:8082/swagger-ui.html),发现浏览器可以正常访问，但是看不到任何文档：
-![image](http://q21ledx2j.bkt.clouddn.com/4.png)
+![image](http://q21ledx2j.bkt.clouddn.com/example:spring-boot-swagger:4.png)
 
 #### 方式二： 使用注解@ConditionalOnProperty
 修改application-dev.properties
