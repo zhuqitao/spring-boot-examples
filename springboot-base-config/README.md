@@ -74,17 +74,17 @@ spring.profiles.active=test
 Jrebel是Idea提供的插件，是收费的，网上有许多很简单的破解方法，有条件的同学可以购买正版使用。
 ##### 第一步：安装插件，需要重启Idea生效
 
-![image](https://github.com/zhuqitao/spring-boot-examples/blob/master/springboot-base-config/src/main/resources/static/images/1.png)
+![image](http://q21ledx2j.bkt.clouddn.com/example:springboot-base-config:1.png)
 
 ##### 第二步：激活
 ##### 第三步：设置当前项目为Jrebel热更新
 
-![image](https://github.com/zhuqitao/spring-boot-examples/blob/master/springboot-base-config/src/main/resources/static/images/3.png)
+![image](http://q21ledx2j.bkt.clouddn.com/example:springboot-base-config:2.png)
 
 点击左侧Jrebel小功能按钮，勾选需要Jrebel热更新的项目
 到此就可以使用Jrebel热更新启动项目了
 
-![image](https://github.com/zhuqitao/spring-boot-examples/blob/master/springboot-base-config/src/main/resources/static/images/4.png)
+![image](http://q21ledx2j.bkt.clouddn.com/example:springboot-base-config:3.png)
 
 #### 二、devtools实现热加载
 ##### 第一步：引入devtools依赖
@@ -99,14 +99,14 @@ Jrebel是Idea提供的插件，是收费的，网上有许多很简单的破解�
 按"Command+Option+Shift+/"选择Registry，选中compiler.automake.allow.when.app.running
 ，由于我已经选中，compiler.automake.allow.when.app.running在顶部显示，如果没选中需要下拉寻找
 
-![image](https://github.com/zhuqitao/spring-boot-examples/blob/master/springboot-base-config/src/main/resources/static/images/6.png)
+![image](http://q21ledx2j.bkt.clouddn.com/example:springboot-base-config:4.png)
 
 IntelliJ IDEA -> Preferences -> Build,Execution,Deplyment -> Compiler
 选中Build project automatically
 
-![image](https://github.com/zhuqitao/spring-boot-examples/blob/master/springboot-base-config/src/main/resources/static/images/5.png)
+![image](http://q21ledx2j.bkt.clouddn.com/example:springboot-base-config:5.png)
 
-![image](https://github.com/zhuqitao/spring-boot-examples/blob/master/springboot-base-config/src/main/resources/static/images/7.png)
+![image](http://q21ledx2j.bkt.clouddn.com/example:springboot-base-config:6.png)
 ##### 第三步：application.properties配置
 ```properties
 #热加载生效
