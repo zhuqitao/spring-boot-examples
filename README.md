@@ -14,3 +14,5 @@ Spring Boot 使用的各种示例，代码注释丰富，简单上手容易理�
 [SoringBoot、Mybatis、Druid多数据源JTA分布式事务实现](https://github.com/zhuqitao/spring-boot-examples/tree/master/springboot-mybatis-druid-jta)
 
 [SpringBoot 监听器、过滤器、拦截器以及自定义事件配置](https://github.com/zhuqitao/spring-boot-examples/tree/master/springboot-listener-filter-interceptor)
+
+[Spring Boot整合JPA](https://github.com/zhuqitao/spring-boot-examples/tree/master/springboot-jpa)

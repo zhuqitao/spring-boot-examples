@@ -311,4 +311,4 @@ public class HelloController {
 }
 ```
 
-#### 具体代码可查看[源码地址](https://github.com/zhuqitao/spring-boot-examples/tree/master/spring-boot-listener-filter-interceptor)，欢迎star
+#### 具体代码可查看[源码地址](https://github.com/zhuqitao/spring-boot-examples/tree/master/springboot-listener-filter-interceptor)，欢迎star
