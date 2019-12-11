@@ -1,7 +1,8 @@
 # Spring Boot学习资料
 ****
-Spring Boot 使用的各种示例，代码注释丰富，简单上手容易理解。
-另外笔者是前端出身，多处会把一些和Js中相似的概念和用法作对比，加深理解。
+面包是需要的，牛奶是需要的，Java也是需要的。贫富乃人生常事，进步是致富之本。下面是笔者学习SpringBoot以来总结的经验，分享出来希望对大家有所帮助。笔者是前端出身，最开始对面对Java我是拒绝的，......真香！
+
+同时笔者也在同步更新一篇[React Native](https://github.com/zhuqitao/react-native-example)的知识分享，从企业开发的角度分析各种业务场景的实现方案(项目的发布部署与热更新、微信分享/登录/支付实现、如何唤醒APP Store或Android应用商城、IOS和Android的兼容问题...)
 
 ### Spring Boot 案例
 [SpringBoot hello world](https://github.com/zhuqitao/spring-boot-examples/tree/master/springboot-hello-world)
